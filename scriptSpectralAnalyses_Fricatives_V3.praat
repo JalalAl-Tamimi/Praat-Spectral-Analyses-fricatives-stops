@@ -50,7 +50,7 @@ endif
 
 createDirectory: "spectra"
 
-Create Strings as file list: "list", "'parent_directory$'\*.wav"
+Create Strings as file list: "list", "'parent_directory$'/*.wav"
 nbFiles = Get number of strings
 
 appendFileLine: "'results$'.xls", "fileName", tab$, "phoneme", tab$, "start", tab$, "startAfter", tab$, "midBefore", tab$, 
